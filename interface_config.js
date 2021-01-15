@@ -2,7 +2,7 @@
 /* eslint sort-keys: ["error", "asc", {"caseSensitive": false}] */
 
 var interfaceConfig = {
-    APP_NAME: 'meet2.netzwissen.de',
+    APP_NAME: 'Jitsi Meet',
     AUDIO_LEVEL_PRIMARY_COLOR: 'rgba(255,255,255,0.4)',
     AUDIO_LEVEL_SECONDARY_COLOR: 'rgba(255,255,255,0.2)',
 
@@ -45,10 +45,10 @@ var interfaceConfig = {
     CONNECTION_INDICATOR_DISABLED: false,
 
     DEFAULT_BACKGROUND: '#474747',
-    DEFAULT_LOCAL_DISPLAY_NAME: 'ich',
-    DEFAULT_LOGO_URL: 'images/nw_watermark.png',
-    DEFAULT_REMOTE_DISPLAY_NAME: 'unbekannt',
-    DEFAULT_WELCOME_PAGE_LOGO_URL: 'images/nw_watermark.png',
+    DEFAULT_LOCAL_DISPLAY_NAME: 'me',
+    DEFAULT_LOGO_URL: 'images/watermark.png',
+    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
+    DEFAULT_WELCOME_PAGE_LOGO_URL: 'images/watermark.png',
 
     DISABLE_DOMINANT_SPEAKER_INDICATOR: false,
 
@@ -100,7 +100,7 @@ var interfaceConfig = {
      */
     filmStripOnly: false,
 
-    GENERATE_ROOMNAMES_ON_WELCOME_PAGE: false,
+    GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
 
     /**
      * Hide the logo on the deep linking pages.
@@ -152,7 +152,7 @@ var interfaceConfig = {
      *
      * @type {boolean}
      */
-    RECENT_LIST_ENABLED: false,
+    RECENT_LIST_ENABLED: true,
     REMOTE_THUMBNAIL_RATIO: 1, // 1:1
 
     SETTINGS_SECTIONS: [ 'devices', 'language', 'moderator', 'profile', 'calendar' ],
@@ -175,7 +175,7 @@ var interfaceConfig = {
      * If indicated some of the error dialogs may point to the support URL for
      * help.
      */
-    SUPPORT_URL: 'https://zammad.netzwissen.de/',
+    SUPPORT_URL: 'https://community.jitsi.org/',
 
     TOOLBAR_ALWAYS_VISIBLE: false,
 
